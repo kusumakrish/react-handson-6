@@ -7,7 +7,7 @@ const Students = () => {
   return (
     <div>
 
-<div><Link className='addnew' to="/NewStudent"><button className='addstudent'>Add Student</button></Link></div>
+<div><Link className='addnew' to="/AddStudent"><button className='addstudent'>Add Student</button></Link></div>
 
 <table style={{marginTop:"30px"}} className="table table-bordered">
   <thead>
