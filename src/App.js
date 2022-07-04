@@ -4,8 +4,8 @@ import {BrowserRouter, Routes, Route} from "react-router-dom"
 import Home from './component/home';
 import Students from './component/Student';
 import Contact from './component/contact';
-import StudentEdit from './component/StudentEdit';
-import NewStudents from './component/NewStudent';
+import StudentEdit from './component/Edit';
+import NewStudents from './component/AddStudent';
 import Detail from './component/Detail';
 
 function App() {
@@ -18,8 +18,8 @@ function App() {
       <Route path='/home' element={<Home />}/>
       <Route path="/Student" element={<Students/>}/>
       <Route path='/Contact' element={<Contact />}/>
-      <Route path="/StudentEdit/:id" element={<StudentEdit/>}/>
-  <Route path="/NewStudent" element={<NewStudents/>}/>
+      <Route path="/Edit/:id" element={<Edit/>}/>
+  <Route path="/AddStudent" element={<AddStudents/>}/>
     </Routes>
     </BrowserRouter>
     </div>
